@@ -2,20 +2,16 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>下车代码 | 一笑置之的博客</title>
+<title>github pages打不开的解决方法 | 一笑置之的博客</title>
 <link rel="shortcut icon" href="https://BCMYS.github.io/favicon.ico?v=1598237244503">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://BCMYS.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="下车代码 | 一笑置之的博客 - Atom Feed" href="https://BCMYS.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="github pages打不开的解决方法 | 一笑置之的博客 - Atom Feed" href="https://BCMYS.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-
-
-world.querySelectorAll('.还原').forEach((e)=&gt;{//以带标签还原的模型为触发条遍历循环
-e.onEntityContact(({entity,other})=&gt;{//设置目标模型的碰..." />
+    <meta name="description" content="可以手动改hosts文件：win 10系统，打开powershell，输入cd \Windows\System32\drivers\etc，切换到hosts文件的路径，然后输入notepad hosts，用记事本打开hosts文件，在最后面..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -79,48 +75,21 @@ e.onEntityContact(({entity,other})=&gt;{//设置目标模型的碰..." />
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              下车代码
+              github pages打不开的解决方法
             </h2>
             <div class="post-info">
               <span>
-                2020-08-23
+                2020-08-24
               </span>
               <span>
-                2 min read
+                1 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <ol>
-<li></li>
-</ol>
-<p>world.querySelectorAll('.还原').forEach((e)=&gt;{//以带标签还原的模型为触发条遍历循环<br>
-e.onEntityContact(({entity,other})=&gt;{//设置目标模型的碰撞事件.<br>
-if(!other.isPlayer){return} //防止非玩家实体参与检测.<br>
-other.mesh=other;  //还原原造型<br>
-other.player.invisible=false;//取消隐身<br>
-other.player.canFly = false;//取消飞行<br>
-other.player.scale = 1;//还原原形状，大小<br>
-other.player.runSpeed=0.5;//还原原速度<br>
-world.say(other.player.name+&quot;还原了自己&quot;);//广播信息<br>
-})<br>
-})</p>
-<ol start="2">
-<li></li>
-</ol>
-<p>world.onChat(({ entity, message }) =&gt; {//如果有人在聊天板说话，检测<br>
-if (entity &amp;&amp; entity.isPlayer) {//如果说话者为玩家<br>
-if (message === '我要下车') {//且内容为“我要下车”，触发……<br>
-other.mesh=other;  //还是还原原造型<br>
-other.player.invisible=false;//还是取消隐身<br>
-other.player.canFly = false;//还是取消飞行<br>
-other.player.scale = 1;//还原原形状，大小（不想多说了）<br>
-other.player.runSpeed=0.5;//还原原速度<br>
-world.say(other.player.name+&quot;还原了自己&quot;);//广播信息<br>
-}<br>
-})</p>
+                <p>可以手动改hosts文件：win 10系统，打开powershell，输入cd \Windows\System32\drivers\etc，切换到hosts文件的路径，然后输入notepad hosts，用记事本打开hosts文件，在最后面加上一行，185.199.110.153 仓库名字.github.io，前面的数字是github.io的IP地址，github.io的IP地址可以在这个网站上查：https://www.ipaddress.com/，有四个我随便选了一个，然后保存文件，然后在powershell输入 Clear-DnsClientCache，清除DNS缓存，然后你再上https://仓库名字.github.io/vue-upload-component/应该就可以了。其他xxx.github.io也是同理，可惜hosts文件不支持通配符，所以只能手动一个一个去改，有点麻烦</p>
 
               </div>
               <div class="toc-container">
@@ -133,9 +102,9 @@ world.say(other.player.name+&quot;还原了自己&quot;);//广播信息<br>
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://BCMYS.github.io/post/sui-ji-chu-sheng-dian/">
+            <a href="https://BCMYS.github.io/post/xia-che-dai-ma/">
               <h3 class="post-title">
-                随机出生点
+                下车代码
               </h3>
             </a>
           </div>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BCMYS.github.io</id>
     <title>一笑置之的博客</title>
-    <updated>2020-08-23T11:41:33.981Z</updated>
+    <updated>2020-08-24T02:47:36.516Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BCMYS.github.io"/>
     <link rel="self" href="https://BCMYS.github.io/atom.xml"/>
@@ -11,6 +11,15 @@
     <logo>https://BCMYS.github.io/images/avatar.png</logo>
     <icon>https://BCMYS.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 一笑置之的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[github pages打不开的解决方法]]></title>
+        <id>https://BCMYS.github.io/post/github-pages-da-bu-kai-de-jie-jue-fang-fa/</id>
+        <link href="https://BCMYS.github.io/post/github-pages-da-bu-kai-de-jie-jue-fang-fa/">
+        </link>
+        <updated>2020-08-24T02:46:14.000Z</updated>
+        <content type="html"><![CDATA[<p>可以手动改hosts文件：win 10系统，打开powershell，输入cd \Windows\System32\drivers\etc，切换到hosts文件的路径，然后输入notepad hosts，用记事本打开hosts文件，在最后面加上一行，185.199.110.153 仓库名字.github.io，前面的数字是github.io的IP地址，github.io的IP地址可以在这个网站上查：https://www.ipaddress.com/，有四个我随便选了一个，然后保存文件，然后在powershell输入 Clear-DnsClientCache，清除DNS缓存，然后你再上https://仓库名字.github.io/vue-upload-component/应该就可以了。其他xxx.github.io也是同理，可惜hosts文件不支持通配符，所以只能手动一个一个去改，有点麻烦</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[下车代码]]></title>
         <id>https://BCMYS.github.io/post/xia-che-dai-ma/</id>
